@@ -1,0 +1,2 @@
+include ':app', ':katexmathview', ':katextmathview', ':mathview'
+rootProject.name='Calculator'

@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Popup">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+<!--    <style name="WhiteText" parent="@android:style/TextAppearance">-->
+<!--        <item name="android:textColor">@android:color/white</item>-->
+<!--    </style>-->
+
+<!--    <style name="BlackText" parent="@android:style/TextAppearance">-->
+<!--        <item name="android:textColor">@android:color/black</item>-->
+<!--    </style>-->
+
+    <style name="ButtonLightGrey" parent="@style/Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@android:color/darker_gray</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ButtonGreen" parent="@style/Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@android:color/holo_green_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonDarkGrey" parent="@style/Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

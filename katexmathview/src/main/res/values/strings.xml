@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KatexMathView</string>
+    <string name="single_formula">$\\frac{\\sqrt{\\pi}}{2}$</string>
+</resources>

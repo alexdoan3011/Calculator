@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MathView">
+        <attr name="setViewBackgroundColor" format="color" />
+        <attr name="setText" format="string" />
+        <attr name="setTextColor" format="color" />
+        <attr name="setTextSize" format="dimension" />
+        <attr name="setClickable" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="MathLabel">
+        <attr name="setTextMathLabel" format="string" />
+        <attr name="setTextColorMathLabel" format="color" />
+        <attr name="setTextSizeMathLabel" format="dimension" />
+        <attr name="setViewBackgroundColorMathLabel" format="color" />
+    </declare-styleable>
+</resources>
